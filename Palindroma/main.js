@@ -23,3 +23,11 @@ function checkParolaPalindroma (parola) {
         }
         return true;
 }
+
+//SE la parola è palindroma
+if(checkParolaPalindroma(parolaMinuscola)) {
+    alert(`la parola ${parolaMinuscola} è palindroma`);
+} //ALTRIMENTI la parola non è palindroma
+else {
+    alert(`la parola ${parolaMinuscola} non è palindroma`);
+}
