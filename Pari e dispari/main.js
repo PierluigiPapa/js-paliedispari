@@ -8,4 +8,8 @@ function numeroRandom (){
     return Math.floor(Math.random()* 5) + 1;
 }
 
+//Costante per generare il numero random del computer
+let numeroPc = numeroRandom()
 
+//Variabile per sommare i due numeri (utente e pc)
+let somma = numeroUtente + numeroPc
